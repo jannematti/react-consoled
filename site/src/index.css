@@ -1,0 +1,116 @@
+body {
+	margin: 60px auto;
+	max-width: 800px;
+	padding: 10px;
+	font-family: "Lato"
+}
+
+h1{
+	font-size: 50px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+h2{
+    margin-bottom: 16px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+table, code{
+	font-family: Consolas,Liberation Mono,Menlo,monospace;
+	font-size: 14px;
+}
+
+table{
+	font-size: 12px;
+}
+
+thead{
+	border: 1px solid #e8e8e8;
+	border-width: 0 0 1px;
+	text-align: left;
+	text-decoration: underline;
+}
+
+th{
+	padding: 6px;
+}
+
+.CodeMirror {
+	height: auto !important;
+}
+
+.example .CodeMirror-lines{
+    background: rgba(226, 226, 226, 0.2);
+	padding: 9px 6px !important;
+}
+
+table .CodeMirror {
+	border: none;
+}
+
+.example .CodeMirror:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 3px 7px;
+	font-size: 12px;
+	color: #c2c0bc;
+	content: "";
+}
+
+.example pre{
+	padding: 8px;
+	border-radius: 7px;
+}
+
+td{
+	padding: 5px;
+}
+
+.name{
+	color: #7f9a44;
+}
+
+.type{
+	color: #b77daa;
+}
+
+textarea{
+	padding: 8px;
+	width: 100%;
+	border: 1px solid #f4f4f4;
+}
+
+button{
+	margin: 7px;
+}
+
+.consoled{
+	padding: 7px;
+}
+
+.example{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.example a{
+	display: inline-block;
+	float: right;
+}
+
+hr{
+	border: 1px solid #f4f4f4;
+	margin: 20px 0px 40px 0px;
+}
+
+pre{
+	margin-top: 0px;
+	line-height: 1;
+	tab-size: 2;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
