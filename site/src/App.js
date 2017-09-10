@@ -19,8 +19,9 @@ const App = () => (
 		<p>Output a javascript code inside a react component.</p>
 	    <hr/>
 	    <h2>Installation</h2>
-	    <First />
+		<CodeMirror value={'npm install react-consoled'} options={opts} />
 	    <h2>Usage</h2>
+	    <First />
 	    <Loop />
 	    <ConsoleLogs />
 	    <hr/>
